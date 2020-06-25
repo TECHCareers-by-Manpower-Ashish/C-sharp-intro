@@ -6,38 +6,33 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-           
+        
+        int mynum = 3;
+        while (mynum > 0) //Itreates loops while the condition is true.
 
-Console.WriteLine ("Enter a number");
-int userint = int.Parse(Console.ReadLine ());
-if (userint >5)
+        {
+            Console.WriteLine ("current number is {0}", mynum );
+            mynum--;
 
+        }
+/* for loop have e semi colon separted componets;
+1. Assignment
+2. termination condition
+3. Iteration
+
+*/
+for (int i= 0; i < 6; i+=2 )
 {
 
-    Console.WriteLine("greater than 5");
-
+    Console.WriteLine ("cureent for number is: {0}", i);
 }
-else if (userint > 10 )
+
+string [] mylist = {"cat", "turtle", "lizard", "frog", "dog" };
+foreach ( string listitem in mylist )
 
 {
-Console.WriteLine ("A negative number");
-
+    Console.WriteLine ("The current item is: {0},", listitem );
 }
-
-else if (userint <0)
-
-{
-Console.WriteLine ("A negative number");
-
-}
-
-else
-{Console.WriteLine("Number is between 0 and 5");
-
-
-}
-
-
 
 
 
