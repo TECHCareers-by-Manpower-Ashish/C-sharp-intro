@@ -7,32 +7,55 @@ namespace c_sharp_intro
         static void Main(string[] args)
         {
         
-        int mynum = 3;
-        while (mynum > 0) //Itreates loops while the condition is true.
+        // Guide the user...
+            Console.WriteLine( "Please enter add/subtract/multiply/exit:" );
 
-        {
-            Console.WriteLine ("current number is {0}", mynum );
-            mynum--;
+            // Collect the user input...
+            string userInput;
+            while ( ( userInput = Console.ReadLine() ) != "exit" ) // LOOPS until a user enters "exit" command.
+            {
+                int firstNum;
+                int secondNum;
+                int result;
+                switch ( userInput )
+                {
+                    case "add":
 
-        }
-/* for loop have e semi colon separted componets;
-1. Assignment
-2. termination condition
-3. Iteration
+                    Console.WriteLine ("Enter first number for addition");
+                    int firstNum = Int32.Parse (Console.ReadLine ());
+                    Console.WriteLine ("Enter first number for addition");
+                     int secondNum = Int32.Parse (Console.ReadLine ());
+                    int result = firstNum + secondNum ;
+                    Console.WriteLine("{0} + {1} = {2}", firstNum , secondNum , result );
 
-*/
-for (int i= 0; i < 6; i+=2 )
-{
+                        break;
+                    case "subtract":
+                    Console.WriteLine ("Enter first number for subtract");
+                    int firstNum = Int32.Parse (Console.ReadLine ());
+                    Console.WriteLine ("Enter first number for subtract");
+                     int secondNum = Int32.Parse (Console.ReadLine ());
+                    int result = firstNum + secondNum ;
+                    Console.WriteLine("{0} + {1} = {2}", firstNum , secondNum , result );
+                      break;
+                    case "multiply":
+                    
+                    Console.WriteLine ("Enter first number for multiply");
+                    int firstNum = Int32.Parse (Console.ReadLine ());
+                    Console.WriteLine ("Enter first number for multiply");
+                     int secondNum = Int32.Parse (Console.ReadLine ());
+                    int result = firstNum + secondNum ;
+                    Console.WriteLine("{0} + {1} = {2}", firstNum , secondNum , result );
 
-    Console.WriteLine ("cureent for number is: {0}", i);
-}
+                        break;
+                    default:
 
-string [] mylist = {"cat", "turtle", "lizard", "frog", "dog" };
-foreach ( string listitem in mylist )
+                    Console.WriteLine ("unrecognize character");
 
-{
-    Console.WriteLine ("The current item is: {0},", listitem );
-}
+                        break;
+                }
+            }
+
+
 
 
 
