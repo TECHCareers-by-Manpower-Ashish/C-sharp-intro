@@ -15,7 +15,31 @@ namespace c_sharp_intro
            int secondNum = Int32.Parse(Console.ReadLine() );
 
 
+            int result = firstNum + secondNum ;
+            Console.WriteLine ("{0} + {1} = {2}", firstNum, secondNum, result  );
 
+            else if (useroparator == "subtract")
+
+
+{
+
+           
+   
+           Console.WriteLine ("please enter the first number:");
+           int firstNum = Int32.Parse(Console.ReadLine () );
+           Console.WriteLine("please enter the second number to subtract");
+           int secondNum = Int32.Parse(Console.ReadLine() );
+
+
+            int result = firstNum - secondNum ;
+            Console.WriteLine ("{0} -  {1} = {2}", firstNum, secondNum, result  );
+
+
+}
+
+}
+         
         }
     }
-}
+
+
