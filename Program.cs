@@ -39,6 +39,34 @@ namespace c_sharp_intro
             Console.WriteLine( "3" + 3);
             Console.WriteLine(3 + 6 + "3");
 
+
+
+            //output our variable
+            Console.WriteLine (myint); //42
+            // a new assignment on an existing variable
+            myint = myint + 2; // 44
+            Console.WriteLine(myint);
+            
+            //myint = myint +"2"; //We cant not turn myint into string!
+
+            myint++; // the same as typing  Myint = myint + 1;
+            Console.WriteLine(myint);
+            myint--; // the same as typing  Myint = myint - 1;
+            Console.WriteLine(myint); //44
+
+            myint += 3; // the same as typing; myint = myint + 3
+            myint -= 5; // The same as typing myint = myint - 5
+            Console .WriteLine (myint); //42
+            
+
+
+
+
+
+
+
+
+
         }
     }
 }
