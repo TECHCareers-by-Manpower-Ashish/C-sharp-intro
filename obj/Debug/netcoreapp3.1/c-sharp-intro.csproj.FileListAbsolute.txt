@@ -11,3 +11,16 @@ C:\Users\Pashi\Documents\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.csp
 C:\Users\Pashi\Documents\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.dll
 C:\Users\Pashi\Documents\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.pdb
 C:\Users\Pashi\Documents\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.genruntimeconfig.cache
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.exe
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.deps.json
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.runtimeconfig.json
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.runtimeconfig.dev.json
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.dll
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\bin\Debug\netcoreapp3.1\c-sharp-intro.pdb
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.csprojAssemblyReference.cache
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.AssemblyInfoInputs.cache
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.AssemblyInfo.cs
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.csproj.CoreCompileInputs.cache
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.dll
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.pdb
+C:\Users\Pashi\Documents\Projects\C-sharp-intro\obj\Debug\netcoreapp3.1\c-sharp-intro.genruntimeconfig.cache

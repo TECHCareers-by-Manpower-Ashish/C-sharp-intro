@@ -6,39 +6,38 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {
-            // Two slashes mark the beginning of single-line comment.
-           //we are assigning a string value to variable.
-            string myname = "Ashish Patel";
-        /* we begn multi-line comments with a forward-slash and asterrisk....
-
-
-        symbols between values or evaluations are considered "operations ."
-        below we are using the addition symbol to concatenate two strings.
-        (concatenation means gluing two strigs, or texts, together.gi)
-
-https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netcore-3.1
-        ... and we end multi-line comments with an asterisk followed by a forward-slash*/
-
-            Console.WriteLine("Hello," + myname );
-            Console.WriteLine ("Please enter your name");
-
-            //Assign variable username to a value entered by the user.
-            https://docs.microsoft.com/en-us/dotnet/api/system.console.readline?view=netcore-3.1
-            string username = Console.ReadLine();
-            Console.WriteLine("you have entered:   " + username);
-
-
-            //Instead of traditional concatenation using the addition operater..
-            //we can use string interpolation (placeholder) to embed values in
+            
+            //"=" is the assignment operator
+            //String datatype is used for text.
         
-           Console.WriteLine("Hey {0}, you are looking greate today!", username);
-           Console.WriteLine ("Makemeuppercase".ToUpper() );
-           Console.WriteLine("Makemeloverscase".ToLower() );
-           //substring takes two arguments: 1) starting character postion 2) number of charcheter to collect.
-           Console.WriteLine("ABCDEFGHIGKLMANOPQRSTUVWXYZ".Substring (4, 6));
-           Console.WriteLine("XYZ".Length);//get the number of character for the string.
-           
+            String mystring = "This is a string!";
+            int myint = 42;
 
+            Double myDouble = 33.666;
+
+            bool mybool = true;
+
+            //subtraction operator is "-" (minus)
+            Console.WriteLine (myint - 10); //32
+
+            //multicplication operaton is "*" 
+
+            Console.WriteLine (myint * 2);
+
+
+            //Divison operator 
+            Console.WriteLine(myint / 2); //21
+
+            //Modulus operator is "%"
+            Console.WriteLine(myint % 13);
+
+            //Addition operator is "+"
+
+            Console.WriteLine(myint + 8); //8
+
+            Console.WriteLine( "3" + "3");
+            Console.WriteLine( "3" + 3);
+            Console.WriteLine(3 + 6 + "3");
 
         }
     }
