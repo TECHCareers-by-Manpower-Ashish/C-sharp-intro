@@ -71,7 +71,7 @@ static int collectIntfromuser()
 
 {
 
-
+int intvalue = 0;
 bool error =  true;
 while (error == true)
 
